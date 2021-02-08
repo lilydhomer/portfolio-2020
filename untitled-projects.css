@@ -1,0 +1,1434 @@
+@charset "UTF-8";
+/* CSS Document */
+a {
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+a:active {
+    text-decoration: none;
+    color: #0025B3;
+}
+
+#nav9 a:link{
+	color: #FFFFFF;}
+#nav9 a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+	}
+#nav9 a:visited {
+    text-decoration: none;
+	color: #FFFFFF;
+}
+#nav10 a:link{
+		color: #FFFFFF;
+	}
+#nav10 a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+	}
+#nav10 a:visited {
+    text-decoration: none;
+	color: #FFFFFF;
+}
+#nav11 a:link{
+		color: #FFFFFF;
+	}
+#nav11 a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+	}
+#nav11 a:visited {
+    text-decoration: none;
+	color: #FFFFFF;
+}
+@media (max-width:576px){
+#navborder {
+    width: 100%;
+    height: 75px;
+    left : 0px;
+    top: 0px;
+    position: fixed;
+    float: left;
+    background-color: #3F3F3F;
+    margin-top: 0px;
+    clear: right;
+	}
+	#logo {
+		position: fixed;
+		float: left;
+		left: 20px;
+		top: 10px;
+		width: 50px;
+		height: 50px;
+	}
+	
+	#Title {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica, Arial", "sans-serif";
+    font-size: 30px;
+    font-weight: bold;
+    position: fixed;
+    float: left;
+    clear: right;
+    top: 10px;
+    padding-top: 0px;
+    width: 100%;
+    left: 70px;
+	}
+/* Dropdown Button */
+.dropbtn {
+  color: white;
+  font-size: 16px;
+	font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  border: none;
+  cursor: pointer;
+	padding:0px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #FFFFFF;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: fixed;
+  display: inline-block;
+	float:right;
+	right:30px;
+	top:20px;
+	  z-index: 4;
+}
+	
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #FFFFFF;
+  min-width: 75px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 4;
+	float:left;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 2px 2px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {text-decoration: underline;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+	
+#NAV {
+	visibility: hidden;
+    width: 1px;
+	height: 1px;
+	position: fixed;
+	top: 0px;
+	float: left;
+}
+#nav1 {
+    width:1px;
+	height: 1px;
+	background-color: #FFFFFF;
+    font-family: gill sans;
+    font-size: 1pt;
+    float: left;
+    clear: right;
+    position: relative;
+}
+#nav2 {
+    width:1px;
+	height: 1px;
+	background-color: #FFFFFF;
+    font-family: gill sans;
+    font-size: 1pt;
+    float: left;
+    clear: right;
+    position: relative;
+}
+#nav3 {
+    width:1px;
+	height: 1px;
+	background-color: #FFFFFF;
+    font-family: gill sans;
+    font-size: 1pt;
+    float: left;
+    clear: right;
+    position: relative;
+
+}
+#nav4 {
+    width:1px;
+	height: 1px;
+	background-color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 1px;
+	float: left;
+	clear:right;
+	position: relative;
+}
+#nav5 {
+	width:1px;
+	height: 1px;
+    background-color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 1pt;
+	float: left;
+	clear:right;
+	position: relative;
+}
+#nav6 {
+	width:1px;
+	height: 1px;
+	background-color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 1pt;
+	float: left;
+	clear:right;
+	position: relative;
+}
+#nav7 {
+    width:1px;
+	height: 1px;
+	background-color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 1pt;
+	float: left;
+	clear:right;
+	position: relative;
+}
+#nav8 {
+    width:1px;
+	height: 1px;
+	background-color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 1pt;
+	float: left;
+	clear:right;
+	position: relative;
+}
+		#nav9 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: fixed;
+    margin-right: 5px;
+	padding-bottom: 1px;
+	top: 42px;
+	left: 80px;
+	}
+	#nav10 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: fixed;
+    margin-right: 5px;
+	padding-bottom: 1px;
+		top: 42px;
+		left: 170px;
+	}
+				#nav11 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: fixed;
+    margin-right: 5px;
+	padding-bottom: 1px;
+		top: 42px;
+		left: 230px;
+	}
+#image {
+	width: 100%;
+	position: static;
+	clear:right;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 124px;
+}
+#image-1 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+#image-2 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+#image-3 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-4 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-5 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-6 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-7 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-8 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-9 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-10 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-11 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-12 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-13 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-14 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-15 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-16 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-17 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-18 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#image-final {
+	width: 100%;
+	height: 50px;
+	float:left;
+	clear:right;
+	position: static;
+}
+	#info {
+    margin-bottom: 5px;
+    height: 70px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+	padding-left: 10px;
+	padding-bottom: 10px;
+    position: fixed;
+	width: 100%;
+    top: 75px;
+	padding-top: 10px;
+	background-color: white;
+		
+	}
+#info1 {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+    margin-right: 5px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	position: fixed;
+	width: 400px;
+	}
+	
+	#exhibitions {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: right;
+	right: 10px;
+	top:10px;
+	margin-right: 50px;
+		  z-index: 1;
+	}
+#Base {
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: #FFFFFF;
+	margin-top: 50px;
+	margin-bottom: 5px;
+	vertical-align: center;
+}
+#Base1 {
+    width: 25px;
+    height: 25px;
+    float: left;
+    clear: right;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    position: fixed;
+    margin-right: 10px;
+    margin-left: 10px;
+    bottom: 1px;
+	left: 35%;
+}
+#Base2 {
+    width: 25px;
+    height: 25px;
+    float: left;
+    clear: right;
+    position: fixed;
+	margin-top: 10px;
+    margin-bottom: 5px;
+    bottom: 1px;
+	left: 45%;
+	margin-right: 10px;
+    margin-left: 10px;
+}
+#Base3 {
+     width: 25px;
+    height: 25px;
+    float: left;
+    clear: right;
+    position: fixed;
+	margin-top: 10px;
+    margin-bottom: 5px;
+    bottom: 1px;
+	left: 55%;
+	margin-right: 10px;
+    margin-left: 10px;
+}
+}
+@media (min-width:577px) and (max-width:848px){
+	#navborder {
+    width: 100%;
+    height: 100px;
+    left : 0px;
+    top: 0px;
+    position: fixed;
+    float: left;
+    background-color: #3F3F3F;
+    margin-top: 0px;
+    clear: right;
+	}
+	#logo {
+		position: fixed;
+		float: left;
+		left: 20px;
+		top: 10px;
+	}
+	#Title {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica, Arial", "sans-serif";
+    font-size: 30px;
+    font-weight: bold;
+    position: fixed;
+    float: left;
+    clear: right;
+    top: 55px;
+    padding-top: 0px;
+    width: 100%;
+    left: 100px;
+	}
+.dropbtn {
+  position:fixed;
+  float: left;
+  clear: right;
+}
+.dropdown {
+  position: fixed;
+  display: inline-block;
+  float:left;
+  clear: right;
+  visibility: hidden;
+}
+.dropdown-content {
+  display: none;
+  position: fixed;
+}
+.dropdown-content a {
+  padding: 0px;
+}
+#NAV {
+	margin-left: 5px;
+    margin-right: 50px;
+    padding-top: 20px;
+    width: 90px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+	height: 300px;
+	position: fixed;
+	top: 70px;
+}
+#nav1 {
+    background-color: #FFFFFF;
+    font-family: gill sans;
+    font-size: 16px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    float: left;
+    clear: right;
+    position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+#nav2 {
+    background-color: #FFFFFF;
+    font-family: gill sans;
+    font-size: 16px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    float: left;
+    clear: right;
+    position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+#nav3 {
+    background-color: #FFFFFF;
+    font-family: gill sans;
+    font-size: 16px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    float: left;
+    clear: right;
+    position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+#nav4 {
+     background-color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+#nav5 {
+    background-color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+#nav6 {
+	background-color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+#nav7 {
+     background-color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+#nav8 {
+     background-color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+		#nav9 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: fixed;
+    margin-right: 5px;
+	padding-bottom: 1px;
+	top: 65px;
+	left: 365px;
+	}
+	#nav10 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: fixed;
+    margin-right: 5px;
+	padding-bottom: 1px;
+		top: 65px;
+		left: 308px;
+	}
+					#nav11 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: fixed;
+    margin-right: 5px;
+	padding-bottom: 1px;
+		top: 65px;
+		left: 450px;
+	}
+#image {
+	width: 100%;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	position: static;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+#image-1 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+	}
+#image-2 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-3 {
+     width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-4 {
+        width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-5 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-6 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-7 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-8 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-9 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-10 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-11 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-12 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-13 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-14 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-15 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-16 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-17 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-18 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 125px;
+}
+#image-final {
+	width: 100%;
+	height: 100px;
+	float:left;
+	clear:right;
+}
+#info {
+    margin-bottom: 25px;
+    margin-top: 0px;
+    height: 100%;
+    right: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+	background-color:white;
+    margin-left: 50px;
+    position: fixed;
+    float: right;
+    clear: left;
+    top: 100px;
+    width: 120px;
+	}
+#info1 {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+    margin-right: 5px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	}
+	#exhibitions {
+	position: relative;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+    margin-right: 5px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	}
+#Base {
+	width: auto;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: #FFFFFF;
+	margin-top: 50px;
+	margin-bottom: 5px;
+	vertical-align: center;
+}
+#Base1 {
+    width: 25px;
+    height: 50px;
+    float: left;
+    clear: right;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    position: fixed;
+    margin-right: 1%;
+    margin-left: 1%;
+    bottom: 1px;
+	left: 35%;
+}
+#Base2 {
+    width: 25px;
+    height: 50px;
+    float: left;
+    clear: right;
+    position: fixed;
+	margin-top: 10px;
+    margin-bottom: 1px;
+    bottom: 1px;
+	left: 45%;
+	margin-right: 1%;
+    margin-left: 1%;
+}
+#Base3 {
+     width: 25px;
+    height: 50px;
+    float: left;
+    clear: right;
+    position: fixed;
+	margin-top: 10px;
+    margin-bottom: 1px;
+    bottom: 1px;
+	left: 55%;
+	margin-right: 1%;
+    margin-left: 1%;
+}
+}
+@media (min-width: 849px) {
+	#navborder {
+    width: 1600px;
+    height: 100px;
+    left : 0px;
+    top: 0px;
+    position: fixed;
+    float: left;
+    background-color: #3F3F3F;
+    margin-top: 0px;
+    clear: right;
+	}
+	#logo {
+		position: fixed;
+		float: left;
+		left: 20px;
+		top: 10px;
+	}
+	#Title {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica, Arial", "sans-serif";
+    font-size: 30px;
+    font-weight: bold;
+    position: fixed;
+    float: left;
+    clear: right;
+    top: 55px;
+    padding-top: 0px;
+    width: 100%;
+    left: 100px;
+}
+.dropbtn {
+  position:fixed;
+  float: left;
+  clear: right;
+}
+.dropdown {
+  position: fixed;
+  display: inline-block;
+  float:left;
+  clear: right;
+  visibility: hidden;
+}
+.dropdown-content {
+  display: none;
+  position: fixed;
+}
+.dropdown-content a {
+  padding: 0px;
+}
+#NAV {
+	margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 20px;
+    width: 90px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+	height: 300px;
+	position: fixed;
+	top: 70px;
+}
+#nav1 {
+    font-family: gill sans;
+    font-size: 16px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    float: left;
+    clear: right;
+    position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+#nav2 {
+    font-family: gill sans;
+    font-size: 16px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    float: left;
+    clear: right;
+    position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+#nav3 {
+    font-family: gill sans;
+    font-size: 16px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    float: left;
+    clear: right;
+    position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+#nav4 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+#nav5 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+#nav6 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+#nav7 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+#nav8 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: relative;
+    margin-right: 5px;
+	padding-bottom: 1px;
+}
+		#nav9 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: fixed;
+    margin-right: 5px;
+	padding-bottom: 1px;
+	top: 65px;
+	left: 365px;
+	}
+	#nav10 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: fixed;
+    margin-right: 5px;
+	padding-bottom: 1px;
+		top: 65px;
+		left: 308px;
+	}
+	#nav11 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, "Arial", "sans-serif";
+    font-size: 16px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+	position: fixed;
+    margin-right: 5px;
+	padding-bottom: 1px;
+		top: 65px;
+		left: 450px;}
+	
+#image {
+	width: 100%;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	position: static;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+#image-1 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+	}
+#image-2 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-3 {
+     width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-4 {
+        width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-5 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-6 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-7 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-8 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-9 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-10 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-11 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-12 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-13 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-14 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-15 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-16 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-17 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-18 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: right;
+    position: static;
+	padding-left: 90px;
+	padding-right: 160px;
+}
+#image-final {
+	width: 100%;
+	height: 100px;
+	float:left;
+	clear:right;
+}
+#info {
+    margin-bottom: 25px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 5px;
+    position: fixed;
+    float: right;
+    clear: left;
+    top: 110px;
+    width: 150px;
+    height: 100%;
+    right: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+	background-color:white;
+	}
+#info1 {
+	position: relative;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+    margin-right: 5px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	}
+#exhibitions {
+	position: relative;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	float: left;
+	clear:right;
+    margin-right: 5px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	}
+#Base {
+	width: auto;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: #FFFFFF;
+	margin-top: 50px;
+	margin-bottom: 5px;
+	vertical-align: center;
+}
+#Base1 {
+    width: 25px;
+    height: 50px;
+    float: left;
+    clear: right;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    position: fixed;
+    margin-right: 1%;
+    margin-left: 1%;
+    bottom: 1px;
+	left: 35%;
+}
+#Base2 {
+    width: 25px;
+    height: 50px;
+    float: left;
+    clear: right;
+    position: fixed;
+	margin-top: 10px;
+    margin-bottom: 1px;
+    bottom: 1px;
+	left: 45%;
+	margin-right: 1%;
+    margin-left: 1%;
+}
+#Base3 {
+     width: 25px;
+    height: 50px;
+    float: left;
+    clear: right;
+    position: fixed;
+	margin-top: 10px;
+    margin-bottom: 1px;
+    bottom: 1px;
+	left: 55%;
+	margin-right: 1%;
+    margin-left: 1%;
+	}
+}

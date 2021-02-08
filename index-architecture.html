@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lily Homer's Portfolio</title>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="untitled.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+		/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}// JavaScript Document
+	</script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+	
+<body onLoad="MM_preloadImages('Images/2study1label.jpg')">
+<div class="container-fluid">
+      	<div id="navborder"><a href="index.html" title="">
+		<img src="Images/logo.png" alt="" width="75" height="75" id="logo"/></a>
+  <div id="Title"><a href="index.html" title=""><img src="Images/titlelink.png" width="200" height="46" alt=""/></a>
+			</div>
+			 <div id="nav9"><a href="exhibitions.html" title="">Exhibitions</a></div>
+		 <div id="nav10"><a href="about.html" title="">About</a></div></div>
+		  <div id="nav11"><a href="cv.pdf" target="_blank" title="">CV</a></div>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><img src="Images/navbarmobile.jpg" alt="" width="30" height="30" class="dropbtn"/></button>
+  <div id="myDropdown" class="dropdown-content">
+  <a href="#"><a href="index-crochet.html" title="">Crochet</a></a>
+  <a href="#"><a href="index-embroidery.html" title="">Embroidery</a></a>
+  <a href="#"><a href="index-weaving.html" title="">Weaving</a></a>
+  <a href="#"><a href="index-coiling.html" title="">Coiling</a></a>
+  <a href="#"><a href="index-illustration.html" title="">Illustration</a></a>
+  <a href="#"><a href="index-collage.html" title="">Collage</a></a>
+  <a href="#"><a href="index-architecture.html" title="">Architecture</a></a>
+  <a href="#"><a href="index-furniture.html" title="">Furniture</a></a>
+  </div>
+</div>
+<div id="NAV">
+	 <div id="nav1"><a href="index-crochet.html" title="">Crochet</a></div>
+	 <div id="nav2"><a href="index-embroidery.html" title="">Embroidery</a></div>
+	 <div id="nav3"><a href="index-weaving.html" title="">Weaving</a></div>
+	 <div id="nav4"><a href="index-coiling.html" title="">Coiling</a></div>
+	 <div id="nav5"><a href="index-illustration.html" title="">Illustration</a></div>	
+	 <div id="nav6"><a href="index-collage.html" title="">Collage</a></div>
+	 <div id="nav7"><a href="index-architecture.html" title="">Architecture</a></div>
+	 <div id="nav8"><a href="index-furniture.html" title="">Furniture</a></div>
+
+  </div>
+	
+<div id="image">
+  <div id="image-1"><a href="cfamodel.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','Images/cfaelevation1label.jpg',1)"><img src="Images/cfaelevation1.jpg" alt="" width="150" height="150" id="Image33"></a><a href="cfamodel.html"><img src="Images/cfaelevation1.jpg" alt="image1" width="150" height="150" id="image1"/></a></div>
+  <div id="image-2"><a href="mirrorchair.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','Images/mirrorchair1label.jpg',1)"><img src="Images/mirrorchair1.jpg" alt="" width="150" height="150" id="Image34"></a></div>
+  <div id="image-3"><a href="proustseries.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','Images/proustjacket1label.jpg',1)"><img src="Images/proustjacket1fade.jpg" alt="" width="150" height="150" id="Image35"></a></div>
+  <div id="image-4"><a href="typography.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','Images/2study1label.jpg',1)"><img src="Images/2study1fade.jpg" alt="" width="150" height="150" id="Image36"></a></div>
+  <div id="image-5"><a href="openwork1.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image37','','Images/openwork11label.jpg',1)"><img src="Images/openwork11fade.jpg" alt="" width="150" height="150" id="Image37"></a></div>
+  <div id="image-6"><a href="openwork2.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image38','','Images/openwork21label.jpg',1)"><img src="Images/openwork21fade.jpg" alt="" width="150" height="150" id="Image38"></a></div>
+  <div id="image-7"><a href="openwork3.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image39','','Images/openwork31label.jpg',1)"><img src="Images/openwork31fade.jpg" alt="" width="150" height="150" id="Image39"></a></div>
+  <div id="image-8"><a href="involved.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image40','','Images/wovenchair1label.jpg',1)"><img src="Images/wovenchair1fade.jpg" alt="" width="150" height="150" id="Image40"></a></div>
+	<div id="image-9"><a href="evahesse.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image41','','Images/evahesse1label.jpg',1)"><img src="Images/evahesse1fade.jpg" alt="" width="150" height="150" id="Image41"></a></div>
+	<div id="image-10"><a href="steelcoral.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image42','','Images/steelcoral1label.jpg',1)"><img src="Images/steelcoral1fade.jpg" alt="" width="150" height="150" id="Image42"></a></div>
+	<div id="image-11"><a href="holychicken.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image43','','Images/chicken1label.jpg',1)"><img src="Images/chicken1fade.jpg" alt="" width="150" height="150" id="Image43"></a></div>
+	<div id="image-12"><a href="tempiomaggiore.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image44','','Images/tempiomaggiore1label.jpg',1)"><img src="Images/tempiomaggiore1.jpg" alt="" width="150" height="150" id="Image44"></a></div>
+	<div id="image-13"><a href="confirmconform.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image45','','Images/embroideredstool1label.jpg',1)"><img src="Images/embroideredstool1fade.jpg" alt="" width="150" height="150" id="Image45"></a></div>
+	<div id="image-14"><a href="greenfabricstudy.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','Images/greenorgan1label.jpg',1)"><img src="Images/greenorgan1fade.jpg" alt="" width="150" height="150" id="Image46"></a></div>
+	<div id="image-15"><a href="fabricstudy.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image47','','Images/fabricstudy1label.jpg',1)"><img src="Images/fabricstudy1fade.jpg" alt="" width="150" height="150" id="Image47"></a></div>
+	<div id="image-16"><a href="shituf.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image48','','Images/whiteshituf1label.jpg',1)"><img src="Images/whiteshituf1fade.jpg" alt="" width="150" height="150" id="Image48"></a></div>
+	<div id="image-17"><a href="tooaswell.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image49','','Images/tooaswell1label.jpg',1)"><img src="Images/tooaswell1fade.jpg" alt="" width="150" height="150" id="Image49"></a></div>
+	<div id="image-18"><a href="relook.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','Images/relook1label.jpg',1)"><img src="Images/relook1.jpg" alt="" width="150" height="150" id="Image50"></a></div>
+	<div id="image-19"><a href="whatnowdrawings.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image51','','Images/hillhat1label.jpg',1)"><img src="Images/hillhat1.jpg" alt="" width="150" height="150" id="Image51"></a></div>
+	<div id="image-20"><a href="fromhome.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image52','','Images/fromhome1label.jpg',1)"><img src="Images/fromhome1.jpg" alt="" width="150" height="150" id="Image52"></a></div>
+	<div id="image-21"><a href="ingress.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image53','','Images/wallarch1label.jpg',1)"><img src="Images/wallarch1.jpg" alt="" width="150" height="150" id="Image53"></a></div>
+	<div id="image-22"><a href="discord.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image54','','Images/discord1label.jpg',1)"><img src="Images/discord1fade.jpg" alt="" width="150" height="150" id="Image54"></a></div>
+	<div id="image-23"><a href="chandelier.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image55','','Images/chandelier1label.jpg',1)"><img src="Images/chandelier1fade.jpg" alt="" width="150" height="150" id="Image55"></a></div>
+	<div id="image-24"><a href="collage.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image56','','Images/collage1label.jpg',1)"><img src="Images/collage1.jpg" alt="" width="150" height="150" id="Image56"></a></div>
+	<div id="image-25"><a href="brokenglass.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image57','','Images/brokenglass1label.jpg',1)"><img src="Images/brokenglass1fade.jpg" alt="" width="150" height="150" id="Image57"></a></div>
+	<div id="image-final"></div>
+	
+  </div>
+<div id="Base">
+     <div id="Base1"><a href="https://www.linkedin.com/in/lilyhomer/" title="LinkedIn" target="_blank"><img src="Images/linkeninlogo.png" alt="Linked In" width="25" height="25"/></a></div>
+	 
+	<div id="Base2"><a href="https://www.instagram.com/lilydhomer/" title="Instagram" target="_blank"><img src="Images/instagramlogo.png" alt="Instagram" width="25" height="25"/></a></div>
+	
+	<div id="Base3"><a href="mailto:lhomer@artic.edu"><img src="Images/emaillogo.png" alt="Email" width="25" height="25"/></a></div>
+</div>
+</div>
+</body>
+</html>

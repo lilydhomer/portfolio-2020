@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lily Homer's Portfolio</title>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="untitled-projects.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+		/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}// JavaScript Document
+	</script>
+</head>
+<body>
+<div class="container-fluid">
+	<div id="navborder"><a href="index.html" title="">
+		<img src="Images/logo.png" alt="" width="75" height="75" id="logo"/></a>
+  <div id="Title"><a href="index.html" title=""><img src="Images/titlelink.png" width="200" height="46" alt=""/></a>
+		</div>
+							 <div id="nav9"><a href="exhibitions.html" title="">Exhibitions</a></div>
+		 <div id="nav10"><a href="about.html" title="">About</a></div>
+			  <div id="nav11"><a href="cv.pdf" target="_blank" title="">CV</a></div>
+	</div>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><img src="Images/navbarmobile.jpg" alt="" width="30" height="30" class="dropbtn"/></button>
+  <div id="myDropdown" class="dropdown-content">
+  <a href="#"><a href="index-crochet.html" title="">Crochet</a></a>
+  <a href="#"><a href="index-embroidery.html" title="">Embroidery</a></a>
+  <a href="#"><a href="index-weaving.html" title="">Weaving</a></a>
+  <a href="#"><a href="index-coiling.html" title="">Coiling</a></a>
+  <a href="#"><a href="index-illustration.html" title="">Illustration</a></a>
+  <a href="#"><a href="index-collage.html" title="">Collage</a></a>
+  <a href="#"><a href="index-architecture.html" title="">Architecture</a></a>
+  <a href="#"><a href="index-furniture.html" title="">Furniture</a></a>
+  </div>
+</div>
+<div id="NAV">
+	 <div id="nav1"><a href="index-crochet.html" title="">Crochet</a></div>
+	 <div id="nav2"><a href="index-embroidery.html" title="">Embroidery</a></div>
+	 <div id="nav3"><a href="index-weaving.html" title="">Weaving</a></div>
+	 <div id="nav4"><a href="index-coiling.html" title="">Coiling</a></div>
+	 <div id="nav5"><a href="index-illustration.html" title="">Illustration</a></div>	
+	 <div id="nav6"><a href="index-collage.html" title="">Collage</a></div>
+	 <div id="nav7"><a href="index-architecture.html" title="">Architecture</a></div>
+	 <div id="nav8"><a href="index-furniture.html" title="F">Furniture</a></div>
+  </div>
+	
+<div id="info">
+	<div id="info1">
+	  <p><em> Shituf </em> <br>
+	    Rope, thread, wire, burlap <br>
+	    2019 </p>
+    </div>
+	</div>
+	
+<div id="image">
+  <div id="image-1"><img src="Images/whiteshituf.jpg" alt="image1" width="100%" height="100%"/></div>
+  <div id="image-2"><img src="Images/redshituf.jpg" alt="" width="100%" height="100%" /></div>
+  <div id="image-3"><img src="Images/whiteshitufmessy.jpg" alt="" width="100%" height="100%"/></div>
+  <div id="image-4"><img src="Images/redshitufmessy.jpg" alt="" width="100%" height="100%" /></div>
+	<div id="image-final"></div>
+	
+  </div>
+
+<div id="Base">
+     <div id="Base1"><a href="https://www.linkedin.com/in/lilyhomer/" title="LinkedIn" target="_blank"><img src="Images/linkeninlogo.png" alt="Linked In" width="25" height="25"/></a></div>
+	 
+	<div id="Base2"><a href="https://www.instagram.com/lilydhomer/" title="Instagram" target="_blank"><img src="Images/instagramlogo.png" alt="Instagram" width="25" height="25"/></a></div>
+	
+	<div id="Base3"><a href="mailto:lhomer@artic.edu"><img src="Images/emaillogo.png" alt="Email" width="25" height="25"/></a></div>
+</div>
+</div>
+</body>
+</html>
