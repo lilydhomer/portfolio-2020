@@ -1,5 +1,7 @@
 # portfolio
 portfolio made in 2020
+It's not super up-to-date and I'm feeling like I should overhaul it.
+
 
 Visit site:
 https://lilydhomer.github.io/portfolio/
